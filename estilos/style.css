@@ -28,7 +28,7 @@ section#telefone{
      /*container de dentro posicionamento  absoluto*/
     position:absolute;
     top: 50%;
-    left: 40%;
+    left: 45%;
     transform: translate(-50%, -50%);
 
 
