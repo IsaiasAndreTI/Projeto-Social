@@ -42,12 +42,12 @@ section#telefone{
         position: relative;
         top: 80px;
         left: 22px;
-        width: 267px;
+        width: 268px;
         height: 471px;
 
 
     }
-    section#redes-sociais {
+    section#redes-sociais  {
         text-align: right;
 
     }
@@ -64,9 +64,9 @@ section#telefone{
 
     section#redes-sociais img:hover{
         border: 2px solid rgba(255, 255, 255, 0.649);
-       transform: translate(-3px, -3px);
+       transform: translate(-3px, -3px);/*eleva os botões com efeito pra cima*/
        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.564) ;
-       transition: transform .3s, border 1s;
+       transition: transform .3s, border 1s; /*Movimenta os ícones de forma suave, no border é a velocidade  da aparição da cor*/
 
     }
 
@@ -75,7 +75,7 @@ section#telefone{
         margin: 10px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);  
-        box-sizing: border-box;  
+        box-sizing: border-box;  /*Isso fixa os botões pra evitar mexe todos qdo passamos o mouse a borda fará parte da caixa */
        
     }
 
